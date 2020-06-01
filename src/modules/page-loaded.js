@@ -18,9 +18,13 @@ export default function() {
     footerNav.classList.add('footer-nav');
     const ul = document.createElement('ul');
     const li1 = document.createElement('li');
+    li1.classList.add('home-link');
     const li2 = document.createElement('li');
+    li2.classList.add('menu-link');
     const li3 = document.createElement('li');
+    li3.classList.add('locations-link');
     const li4 = document.createElement('li');
+    li4.classList.add('contact-link');
     const a1 = document.createElement('a');
     const a2 = document.createElement('a');
     const a3 = document.createElement('a');
