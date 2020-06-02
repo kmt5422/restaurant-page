@@ -169,3 +169,16 @@ a {
     right: 5px;
     cursor: pointer;
 }
+
+.location-div {
+    width: 60%;
+    margin: 3rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-div > p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
